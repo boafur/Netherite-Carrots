@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "netheritecarrots:netherite_nugget"
+    },
+    "G": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "result": {
+    "item": "netheritecarrots:netherite_carrot",
+    "count": 1
+  },
+  "group": "netherite_carrot"
+}
