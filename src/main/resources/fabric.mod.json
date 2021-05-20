@@ -9,8 +9,6 @@
     "RubberBoa"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
   },
 
   "license": "CC0-1.0",
@@ -31,6 +29,5 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
