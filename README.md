@@ -2,7 +2,7 @@
 
 Very simple mod that adds a few Netherite based items.
 
-See the (CurseForge page)[https://www.curseforge.com/minecraft/mc-mods/netherite-carrots] for more information.
+See the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/netherite-carrots) for more information.
 
 ## Dependencies
 
