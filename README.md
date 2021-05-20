@@ -2,22 +2,7 @@
 
 Very simple mod that adds a few Netherite based items.
 
-
-**Items:**
-
-Netherite Nuggets:
-
-- Used to craft Netherite Carrots
- 
-
-Netherite Carrots:
-
-- Restores 8 hunger points
-- Restores 16.6 saturation points
-- Gives Regeneration 1
-- Gives Fire Resistance
-- Gives Resistance 2
-- Gives Absorption 2
+See the (CurseForge page)[https://www.curseforge.com/minecraft/mc-mods/netherite-carrots] for more information.
 
 ## Dependencies
 
