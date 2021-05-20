@@ -1,6 +1,6 @@
 # Netherite Carrots
 
-Adds over-powered netherite carrots to the game.
+Adds over-powered netherite carrots to Minecraft.
 
 See the [latest release](https://github.com/boafur/Netherite-Carrots/releases/latest) for more information.
 
