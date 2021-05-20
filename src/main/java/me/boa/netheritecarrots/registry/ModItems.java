@@ -6,6 +6,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 
@@ -13,7 +14,7 @@ public class ModItems {
 
     // Items
     public static final Item NETHERITE_NUGGET = new Item(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof());
-    public static final Item NETHERITE_CARROT = new Item(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof().food(
+    public static final Item NETHERITE_CARROT = new Item(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof().rarity(Rarity.RARE).food(
             new FoodComponent.Builder()
                     .hunger(8)
                     .saturationModifier(16.6f)
@@ -24,7 +25,7 @@ public class ModItems {
                     .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20*1639, 1, true, false), 1)
                     .build())
     );
-    public static final Item REDSTONE_COOKIE = new Item(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof().food(
+    public static final Item REDSTONE_COOKIE = new GlintItem(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof().rarity(Rarity.EPIC).food(
             new FoodComponent.Builder()
                     .hunger(20)
                     .saturationModifier(40.0f)
