@@ -1,8 +1,23 @@
 # Netherite Carrots
 
-Adds over-powered netherite carrots to Minecraft.
+Very simple mod that adds a few Netherite based items.
 
-See the [latest release](https://github.com/boafur/Netherite-Carrots/releases/latest) for more information and to download the mod.
+
+**Items:**
+
+Netherite Nuggets:
+
+- Used to craft Netherite Carrots
+ 
+
+Netherite Carrots:
+
+- Restores 8 hunger points
+- Restores 16.6 saturation points
+- Gives Regeneration 1
+- Gives Fire Resistance
+- Gives Resistance 2
+- Gives Absorption 2
 
 ## Dependencies
 
