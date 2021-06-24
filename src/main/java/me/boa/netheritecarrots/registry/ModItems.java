@@ -12,6 +12,15 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
+    static int absorptionDuration = NetheriteCarrots.CONFIG.SETTINGS.absorptionDuration;
+    static int absorptionAmplifer = NetheriteCarrots.CONFIG.SETTINGS.absorptionAmplifer;
+    static int FireResistanceDuration = NetheriteCarrots.CONFIG.SETTINGS.fireResistanceDuration;
+    static int FireResistanceAmplifer = NetheriteCarrots.CONFIG.SETTINGS.fireResistanceAmplifer;
+    static int ResistanceDuration = NetheriteCarrots.CONFIG.SETTINGS.resistanceDuration;
+    static int ResistanceAmplifer = NetheriteCarrots.CONFIG.SETTINGS.resistanceAmplifer;
+    static int RegenerationDuration = NetheriteCarrots.CONFIG.SETTINGS.regenerationDuration;
+    static int RegenerationAmplifer = NetheriteCarrots.CONFIG.SETTINGS.regenerationAmplifer;
+
     // Items
     public static final Item NETHERITE_NUGGET = new Item(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof());
     public static final Item NETHERITE_CARROT = new Item(new Item.Settings().group(NetheriteCarrots.ITEM_GROUP).fireproof().rarity(Rarity.RARE).food(
@@ -19,10 +28,10 @@ public class ModItems {
                     .hunger(8)
                     .saturationModifier(16.6f)
                     .alwaysEdible()
-                    .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 20*300, 0, true, false), 1)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 20*292, 1, true, false), 1)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20*90, 0), 1)
-                    .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20*1639, 1, true, false), 1)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, FireResistanceDuration*20, FireResistanceAmplifer, true, false), 1)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, ResistanceDuration*20, ResistanceAmplifer, true, false), 1)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, RegenerationDuration*20, RegenerationAmplifer), 1)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, absorptionDuration*20, absorptionAmplifer, true, false), 1)
                     .build())
     );
 

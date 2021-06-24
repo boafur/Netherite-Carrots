@@ -10,7 +10,7 @@ See the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/netherite
 * FabricAPI > 0.32.5
 
 ### Minecraft 1.17.x
-* FabricAPI > 0.34.9
+* FabricAPI > 0.36.0
 
 ## How to build it yourself
 
