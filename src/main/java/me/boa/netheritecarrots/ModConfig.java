@@ -24,8 +24,8 @@ public class ModConfig extends PartitioningSerializer.GlobalData {
         public int resistanceAmplifer = 1;
         public int regenerationDuration = 90;
         public int regenerationAmplifer = 0;
-        @Comment("1639 seconds == infinite duration")
-        public int absorptionDuration = 1639;
+        @Comment("1000000 seconds == infinite duration")
+        public int absorptionDuration = 1000000;
         public int absorptionAmplifer = 1;
     }
 }
